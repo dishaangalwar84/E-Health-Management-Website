@@ -1,1 +1,2 @@
+This folder contains the output screenshots of the E-Health Management Website project.
 
