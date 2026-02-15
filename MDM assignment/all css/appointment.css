@@ -1,0 +1,104 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(135deg, #e6f0ff, #f9fcff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #2b6cb0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Appointment Container */
+.appointment-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.appointment-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2b6cb0;
+}
+
+/* Form Layout */
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Labels */
+.appointment-form label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs, Select */
+.appointment-form input,
+.appointment-form select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccd6e0;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+/* Focus Effect */
+.appointment-form input:focus,
+.appointment-form select:focus {
+    border-color: #2b6cb0;
+    outline: none;
+    box-shadow: 0 0 5px rgba(43,108,176,0.2);
+}
+
+/* Button */
+.appointment-form button {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.appointment-form button:hover {
+    background-color: #1f4e85;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #2b6cb0;
+    color: white;
+    font-size: 14px;
+}

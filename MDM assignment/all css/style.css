@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Body Background */
+body {
+    background: linear-gradient(to right, #e6f2ff, #f9fcff);
+    min-height: 100vh;
+}
+
+/* Header Styling */
+.header {
+    width: 100%;
+    background-color: #0a3d62;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.header nav a:hover {
+    color: #82ccdd;
+}
+
+/* Login Section Layout */
+.login-container {
+    width: 100%;
+    padding: 60px 0;
+}
+
+/* Center Box Using Width + Margin */
+.login-box {
+    width: 35%;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0a3d62;
+    text-transform: uppercase;
+}
+
+/* Labels */
+.login-box label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+.login-box input:focus {
+    border-color: #0a3d62;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(10, 61, 98, 0.4);
+}
+
+/* Options Row (Float Usage) */
+.options {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+/* Float Left */
+.options label {
+    float: left;
+    font-weight: normal;
+}
+
+/* Float Right */
+.options a {
+    float: right;
+    text-decoration: none;
+    color: #0a3d62;
+    font-size: 14px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #0a3d62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3c6382;
+}
+
+/* Register Link */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #0a3d62;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    margin-top: 60px;
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-box {
+        width: 80%;
+    }
+}
